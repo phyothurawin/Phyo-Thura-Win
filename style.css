@@ -1,0 +1,119 @@
+
+
+
+.profile, .container {
+    width: 200px; /* Use 'width' and 'height' instead of 'size' */
+    height: auto; /* Maintain aspect ratio */
+    transition: 0.5s ease;
+    
+}
+
+.profile:hover{
+    width: 210px;
+    height: 260px;
+    background-image: url(/gallery/3.jpeg);
+}
+
+.whole{
+    background-image: url(/gallery/3.jpeg);
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.container:hover .profile{
+    opacity: 0.7;
+}
+
+.title {
+    text-align: center;
+}
+
+.intro{
+    color: #ffffff;
+}
+
+.phyothurawin {
+    color: rgb(255, 0, 0);
+
+    color: #ffffff; /* Corrected 'font-color' to 'color' and set a color */
+    font-size: 100px; /* Reduced from 500px to a more realistic size */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    font-family: Gotham;
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(./Fonts/Gotham-Black.otf);
+}
+
+
+body
+    {
+        
+        color: rgb(44, 44, 44);
+        background-image: url(/gallery/5.jpeg);
+        background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); }
+
+     .title img {
+        border-radius: 40px;
+        border: 4px solid #0099ff;
+        padding: 0px;
+        width: 200px;
+        height: 250px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      }
+
+.whatcanido, .key, .videoeditor {
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+}
+
+.smallicon {
+    width: 40px;
+    height: auto;
+    padding-left: 10px;
+}
+
+a:hover, h1:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+}
+
+.whatcanido, .key, .videoeditor {
+margin-left: auto;
+margin-right: auto;
+width: 75%;
+}
+
+P {
+    padding: 20PX;
+}
+
+.browser {
+    background: cyan;
+}
+
+#popluar {
+    font-weight: bold;
+    font-style: italic;
+}
+
+input[type="text"] {
+    width: 400px;
+  
+}
